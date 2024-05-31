@@ -38,14 +38,14 @@ const HeroSection = () => {
           className=" border w-1/2 
         border-orange-700 shadow-orange-400 mx-3 my-4 rounded-lg "
         >
-          <source type="video/mp4" />
+          <source src={video1} type="video/mp4" />
           Your browser does not support the video tag
         </video>
         <video
           className=" border w-1/2
         border-orange-700 shadow-orange-400 mx-3 my-4 rounded-lg"
         >
-          <source type="video/mp4" />
+          <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
